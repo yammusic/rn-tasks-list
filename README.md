@@ -5,7 +5,19 @@
 ![Tailwind CSS](https://img.shields.io/badge/React%20Native%20Paper-v5-8A2BE2?logo=react)
 ![Typescript](https://img.shields.io/badge/Typescript-v5-blue?logo=typescript)
 
-![Preview](https://raw.githubusercontent.com/yammusic/rn-tasks-list/main/public/preview/android-home.png)
+### Android
+
+<img src="./ui/assets/images/preview/android-home.png" alt="Preview" width="160" />
+<img src="./ui/assets/images/preview/android-tasks.png" alt="Preview" width="160" />
+<img src="./ui/assets/images/preview/android-new-task.png" alt="Preview" width="160" />
+<img src="./ui/assets/images/preview/android-list.png" alt="Preview" width="160" />
+
+### iOS
+
+<img src="./ui/assets/images/preview/ios-home.png" alt="Preview" width="160" />
+<img src="./ui/assets/images/preview/ios-tasks.png" alt="Preview" width="160" />
+<img src="./ui/assets/images/preview/ios-new-task.png" alt="Preview" width="160" />
+<img src="./ui/assets/images/preview/ios-list.png" alt="Preview" width="160" />
 
 ## Description
 
@@ -54,10 +66,13 @@ This codebase follows the Hexa3 architecture, which is a combination of Hexagona
 ## Tech Stack
 
 - [React](https://reactjs.dev/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
 - [Axios](https://axios-http.com/)
-- [Eslint](https://eslint.org/)
 - [Testing Library](https://testing-library.com/)
+- [Eslint](https://eslint.org/)
 - [Typescript](https://www.typescriptlang.org/)
 
 ## Additional Resources
