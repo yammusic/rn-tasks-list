@@ -5,8 +5,11 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+    "android:build": "eas build -p android",
     "ios": "expo start --ios",
+    "ios:build": "eas build -p ios",
     "web": "expo start --web",
+    "expo:publish": "eas update --branch production",
     "test": "jest --watchAll",
     "lint": "expo lint"
   },
