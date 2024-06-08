@@ -34,7 +34,7 @@ The main screen contains 2 buttons used to navigate to the screens of each of th
 
 ## Demo
 
-- [Expo Go app](https://expo.dev/preview/update?message=initial&updateRuntimeVersion=1.0.0&createdAt=2024-06-08T11%3A04%3A07.844Z&slug=exp&projectId=4dc89e16-518b-43a9-ac14-5ac45c2603b6&group=98100947-97c1-4510-959f-1a238a216a3a)
+- [Expo Go app](https://expo.dev/preview/update?message=React%20Native%20tasks%20list&updateRuntimeVersion=1.0.0&createdAt=2024-06-08T13%3A27%3A51.692Z&slug=exp&projectId=4dc89e16-518b-43a9-ac14-5ac45c2603b6&group=a8d8349a-a662-45fb-a8f6-2f02142e8335)
 
 ## Functionalities
 
