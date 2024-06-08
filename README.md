@@ -32,6 +32,10 @@ The challenge is to create a simple application in React Native that includes th
 
 The main screen contains 2 buttons used to navigate to the screens of each of the mentioned sections.
 
+## Demo
+
+- [Expo Go app](https://expo.dev/preview/update?message=initial&updateRuntimeVersion=1.0.0&createdAt=2024-06-08T11%3A04%3A07.844Z&slug=exp&projectId=4dc89e16-518b-43a9-ac14-5ac45c2603b6&group=98100947-97c1-4510-959f-1a238a216a3a)
+
 ## Functionalities
 
 - Tasks:
