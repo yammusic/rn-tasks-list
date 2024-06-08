@@ -6,7 +6,7 @@
     "paths": {
       "@/app/*": ["./ui/*"],
       "@/domain/*": ["./domain/*"],
-      "@/infra/*": ["./infra/*"],
+      "@/infra/*": ["./infra/*"]
     }
   },
   "include": [

@@ -10,6 +10,7 @@ export default function HomeScreen() {
       <Button
         fullWidth
         href="/tasks"
+        linkTestID="tasks-link"
         mode="contained"
         style={ styles.button }
       >
@@ -19,6 +20,7 @@ export default function HomeScreen() {
       <Button
         fullWidth
         href="/list"
+        linkTestID="list-link"
         mode="contained"
         style={ styles.button }
       >

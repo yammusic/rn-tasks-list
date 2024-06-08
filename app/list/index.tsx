@@ -44,7 +44,7 @@ export default function ListScreen() {
 
       { (elements.length === 0 && !loading) && (
         <View style={ styles.container }>
-          <Text variant="titleMedium">Not found elements</Text>
+          <Text testID="not-found" variant="titleMedium">Not found elements</Text>
         </View>
       ) }
 

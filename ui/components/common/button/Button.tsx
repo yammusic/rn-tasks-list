@@ -9,12 +9,19 @@ import type { ButtonProps } from './types'
 import styles from './styles'
 
 export function Button(props: Readonly<ButtonProps>) {
-  const { children, style, fullWidth, href, ...rest } = props
+  const {
+    children,
+    style,
+    fullWidth,
+    href,
+    linkTestID,
+    ...rest
+  } = props
 
   const Link = useMemo(() => {
     if (href) {
       return ({ children }: { children: React.ReactNode }) => (
-        <ExpoLink href={ href }>{ children }</ExpoLink>
+        <ExpoLink href={ href } testID={ linkTestID }>{ children }</ExpoLink>
       )
     }
 

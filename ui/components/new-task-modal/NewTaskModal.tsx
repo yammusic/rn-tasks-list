@@ -46,13 +46,19 @@ export function TasksModal(props: Readonly<NewTasksModalProps>) {
         contentContainerStyle={ styles.container }
         dismissableBackButton={ false }
         onDismiss={ onClose }
+        testID="new-task-modal"
         visible={ open }
       >
         <View style={ [styles.content, { backgroundColor: colors.surface }] }>
           <View style={ styles.header }>
             <Text variant="titleLarge">New Task</Text>
 
-            <Button compact mode="text" onPress={ onCloseHandler }>
+            <Button
+              compact
+              mode="text"
+              onPress={ onCloseHandler }
+              testID="close-button"
+            >
               <Icon color={ colors.primary } size={ 18 } source="close" />
             </Button>
           </View>
@@ -66,13 +72,19 @@ export function TasksModal(props: Readonly<NewTasksModalProps>) {
               numberOfLines={ 3 }
               onChangeText={ onChangeDescription }
               style={ styles.input }
+              testID="task-input"
               value={ description }
             />
 
-            { !!error && <Text style={ styles.error } variant="bodySmall">{ error }</Text> }
+            { !!error && <Text style={ styles.error } testID="error-text" variant="bodySmall">{ error }</Text> }
           </View>
 
-          <Button fullWidth mode="contained" onPress={ onSubmitHandler }>
+          <Button
+            fullWidth
+            mode="contained"
+            onPress={ onSubmitHandler }
+            testID="submit-button"
+          >
             Create
           </Button>
         </View>
