@@ -1,8 +1,70 @@
-# Welcome to your Expo app 👋
+# React Native Task and List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React](https://img.shields.io/badge/React%20Native-v0.74-deepskyblue?logo=react)
+![Next.js](https://img.shields.io/badge/Expo-v51-white?logo=expo)
+![Tailwind CSS](https://img.shields.io/badge/React%20Native%20Paper-v5-8A2BE2?logo=react)
+![Typescript](https://img.shields.io/badge/Typescript-v5-blue?logo=typescript)
 
-## Get started
+![Preview](https://raw.githubusercontent.com/yammusic/rn-tasks-list/main/public/preview/android-home.png)
+
+## Description
+
+The challenge is to create a simple application in React Native that includes the following functionalities:
+
+- A "tasks" section, which is a simple list of tasks added by the user (only containing a description), with the option to add more tasks.
+- A "list" section, which will simply make a request to a remote data list and render it on the screen.
+
+The main screen contains 2 buttons used to navigate to the screens of each of the mentioned sections.
+
+## Functionalities
+
+- Tasks:
+  - Create a list of tasks in a Redux context.
+  - Read and display data present in Redux.
+  - Add new tasks via a modal with a form.
+  - Validation to prevent adding tasks with empty descriptions.
+  - Persist tasks when navigating between screens.
+- List:
+  - Display a list of items fetched from a remote data source.
+  - Display at least the name of each item and optionally an image in the "contact list" style.
+  - Show a loading state while fetching the data.
+
+## Architecture
+
+This project uses Redux Toolkit for global state management and Axios for HTTP requests.
+
+This codebase follows the Hexa3 architecture, which is a combination of Hexagonal Architecture and Domain-Driven Design (DDD) principles. This architecture promotes a clean separation of concerns and a modular design, making the codebase more maintainable and scalable.
+
+### Folder Structure
+
+```bash
+├── app -> (contains routes pages)
+├── domain
+│   ├── constants -> (contains regex constants)
+│   ├── polyfills -> (contains JS polyfills)
+│   └── store -> (contains application state and actions)
+├── infra
+│   └── services -> (contains APIs services)
+└── ui
+    ├── assets -> (contains fonts and image assets)
+    ├── components -> (contains UI components)
+    └── layouts -> (contains UI Layouts)
+```
+
+## Tech Stack
+
+- [React](https://reactjs.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Axios](https://axios-http.com/)
+- [Eslint](https://eslint.org/)
+- [Testing Library](https://testing-library.com/)
+- [Typescript](https://www.typescriptlang.org/)
+
+## Additional Resources
+
+- Mock data API : [https://6172cfe5110a740017222e2b.mockapi.io/elements](https://6172cfe5110a740017222e2b.mockapi.io/elements)
+
+## Run the app
 
 1. Install dependencies
 
@@ -23,28 +85,10 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Run the tests
 
-## Get a fresh project
-
-When you're ready, run:
+To run the tests, use the following command:
 
 ```bash
-npm run reset-project
+npm run test
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
