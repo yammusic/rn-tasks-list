@@ -7,17 +7,21 @@
 
 ### Android
 
-<img style="display:inline-block;" src="./ui/assets/images/preview/android-home.png" alt="Preview" width="160" />
-<img style="display:inline-block;" src="./ui/assets/images/preview/android-tasks.png" alt="Preview" width="160" />
-<img style="display:inline-block;" src="./ui/assets/images/preview/android-new-task.png" alt="Preview" width="160" />
-<img style="display:inline-block;" src="./ui/assets/images/preview/android-list.png" alt="Preview" width="160" />
+<div style="text-align:left;">
+   <img src="./ui/assets/images/preview/android-home.png" alt="Preview" width="160" />
+   <img src="./ui/assets/images/preview/android-tasks.png" alt="Preview" width="160" />
+   <img src="./ui/assets/images/preview/android-new-task.png" alt="Preview" width="160" />
+   <img src="./ui/assets/images/preview/android-list.png" alt="Preview" width="160" />
+</div>
 
 ### iOS
 
-<img style="display:inline-block;" src="./ui/assets/images/preview/ios-home.png" alt="Preview" width="160" />
-<img style="display:inline-block;" src="./ui/assets/images/preview/ios-tasks.png" alt="Preview" width="160" />
-<img style="display:inline-block;" src="./ui/assets/images/preview/ios-new-task.png" alt="Preview" width="160" />
-<img style="display:inline-block;" src="./ui/assets/images/preview/ios-list.png" alt="Preview" width="160" />
+<div style="text-align:left;">
+   <img src="./ui/assets/images/preview/ios-home.png" alt="Preview" width="160" />
+   <img src="./ui/assets/images/preview/ios-tasks.png" alt="Preview" width="160" />
+   <img src="./ui/assets/images/preview/ios-new-task.png" alt="Preview" width="160" />
+   <img src="./ui/assets/images/preview/ios-list.png" alt="Preview" width="160" />
+</div>
 
 ## Description
 
